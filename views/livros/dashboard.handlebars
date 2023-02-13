@@ -1,0 +1,27 @@
+<div class="dashboard">
+    <div class="title-container">
+        <h2>Dashboard</h2>
+        <a href="/livros/add" class="btn">Adicionar livros</a>
+    </div>
+    <h3>Seus Livros:</h3>
+    <ul>
+        {{#each livros}}
+            <li>
+                <h3>Título: <span class="label">{{this.title}}</span></h3>
+                <h3>Autor: <span class="label">{{this.author}}</span></h3>
+                <h3>Gênero: <span class="label">{{this.gender}}</span></h3>
+                <span class="actions">
+                    <a href="/livros/edit/{{this.id}}" class="btn">Editar</a>
+                    <form action="/livros/remove" method="POST">
+                        <input type="hidden" name="id" value="{{this.id}}">
+                        <input type="submit" value="Excluir" class="btn">
+                    </form>
+                </span>
+            </li>
+        {{/each}}
+    </ul>
+    {{#if emptyLivros}}
+        <p>Ainda não há nenhum livro cadastrado, adicione o seu <a href="/livros/add">clicando aqui</a></p>
+    {{/if}}
+    </ul>
+</div>    

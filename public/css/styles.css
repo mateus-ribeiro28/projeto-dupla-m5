@@ -1,0 +1,241 @@
+*{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1ca39e;
+    color: #000;
+  }
+
+  /* NAV BAR */
+
+  #navbar{
+    padding: 1.2em 1.4em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1ca39e;
+    border-bottom: 1px solid #56afac;
+  }
+
+  #navbar ul{
+    display: flex;
+    list-style: none;
+  }
+
+  #navbar ul li{
+    margin-left: 1em;
+  }
+
+  #navbar ul li a{
+    text-decoration: none;
+    transition: .5s;
+    font-weight: bold;
+  }
+
+  #navbar ul li a:hover {
+    color: #9ae4e1;
+  }
+
+  
+  #logo img {
+    display: flex;
+    height: 40px;
+  }
+
+  #logo p{
+    display: flex;
+    
+  }
+  /*HOME*/
+
+  .home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../images/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.home .content p{
+  font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:#eee;
+}
+
+  /*CONSTAINER*/
+  .container {
+    min-height: 60vh;
+    padding: 2em;
+  }
+
+  /*MESSAGES*/
+  .message {
+    padding: 1em;
+    color: #000;
+    background-color: #cce5ff;
+    border: 1px solid #b8da;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 2em;
+    max-width: 60%;
+  }
+
+  /* LOGIN E REGISTRO*/
+  .auth-container {
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .auth-container h2 {
+    
+    margin-bottom: 1em;
+    align-items: center;
+    color: #fff;
+    padding: 0.3em;
+    width: 100px;
+  }
+
+  .auth-container a {
+    color: #000;
+  }
+  
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+  
+  .form-control label {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #000;
+  }
+  
+  form input[type='submit'],
+  .btn {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    padding: 0.5em 1.3em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  form input[type='submit']:hover,
+  .btn:hover {
+    background-color: #56afac;
+    color: #fff;
+  }
+
+  /*FORMULARIO*/
+  
+  .livro-form-container a {
+    color: #000;
+  }
+  .livro-form-container a:hover {
+    color: #9ae4e1;
+  }
+  .livro-form-container h1 {
+    margin-bottom: 1em;
+    
+    color: #000;
+    padding: 0.3em;
+
+  }
+  .livro-form-container form {
+    max-width: 30%;
+    margin-top: 1.5em;
+  
+  }
+  
+   /*DASHBOARD*/
+   .title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    
+   }
+
+   .title-container h2 {
+    padding: 10px;
+
+   }
+
+   .title-container h3 {
+    margin-bottom: 1.5em;
+   }
+
+   .dashboard ul {
+    list-style: none;
+   }
+
+   .dashboard li {
+    padding: 12px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+   .dashboard .label {
+    font-weight: bold;
+    color: #000;
+    margin-right: 2em;
+
+   }
+
+   .dashboard .actions {
+    display: flex;
+   }
+
+   .dashboard .actions .btn {
+    color: #000;
+    border-color: #000;
+    margin: 0 0.5em;
+   }
+  /*FOOTER*/
+
+  .footer{
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #56afac;
+  }
+
+  .footer span{
+    font-weight: bold;
+    color: #000;
+  }
+
+ 
+
+  

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 *{
     font-family: Helvetica, sans-serif;
     margin: 0;
@@ -47,19 +49,30 @@
     display: flex;
     
   }
+  /*BANNER*/
+  
+  
   /*HOME*/
 
   .home{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../images/home-img.jpeg) no-repeat;
+    background:url(../img/banner.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.home .content{
-    max-width: 60rem;
+#home{
+  height: 100px;
+}
+
+
+
+.content{
+  max-width: 44rem;
+  
+    
 }
 
 .home .content h3{
@@ -70,19 +83,66 @@
 
 .home .content p{
   font-size: 2rem;
-    font-weight: lighter;
-    line-height: 1.8;
-    padding:1rem 0;
-    color:#eee;
+  font-weight: lighter;
+  line-height: 1.8;
+  padding: 0;
+  color:#eee;
 }
 
-  /*CONSTAINER*/
-  .container {
+#botao-home{
+  background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    padding: 0;
+    margin-bottom:0;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+  
+}
+
+#infos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: solid #fff 2px;
+  border-bottom: solid #fff 2px;
+  height: 70px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 21px;
+  margin-top: 40px;
+}
+
+#infos b {
+  color: #fff;
+}
+
+article {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#texto2{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+/*CONSTAINER*/
+.container {
     min-height: 60vh;
     padding: 2em;
-  }
+}
 
-  /*MESSAGES*/
+/*MESSAGES*/
   .message {
     padding: 1em;
     color: #000;
@@ -140,14 +200,14 @@
     flex-direction: column;
     margin-bottom: 1em;
     position: relative;
-    margin-left: 510px;
+    margin-left: 400px;
     margin-right: -505px;
   }
  
 
   .bt{
     text-align: center;
-    margin-left: 510px;
+    margin-left: 400px;
     margin-right: -505px;
   }
   

@@ -96,6 +96,7 @@
 
   /* LOGIN E REGISTRO*/
   .auth-container {
+    direction: center;
     max-width: 450px;
     margin: 0 auto;
     display: flex;
@@ -113,10 +114,48 @@
   }
 
   .auth-container a {
-    color: #000;
+    color: #e90d0d;
+  }
+
+  .dashboard{
+    text-align: center;
+  }
+
+  .dashboard h3{
+    color: #fff;
+  }
+
+  .dashboard h2{
+    color: #fff;
+  }
+
+  .container{
+    text-align: center;
+    color: #fff;
+  }
+
+  .form-controler{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    position: relative;
+    margin-left: 510px;
+    margin-right: -505px;
+  }
+ 
+
+  .bt{
+    text-align: center;
+    margin-left: 510px;
+    margin-right: -505px;
   }
   
+
+
+  
   .form-control {
+    text-align: center;
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;

@@ -6,6 +6,7 @@
     padding: 0;
     background-color: #1ca39e;
     color: #000;
+    list-style: none;
   }
 
   /* NAV BAR */
@@ -334,7 +335,15 @@ article {
     font-weight: bold;
     color: #000;
   }
+#infos{
+  display:flex;
+  height: 90px;
+  padding: 10px;
+  flex-direction: column;
 
+
+
+}
  
 
   
